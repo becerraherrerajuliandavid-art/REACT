@@ -1,0 +1,83 @@
+body {
+    background: #111;
+    color: #ccc;
+}
+
+.card {
+    background: #222;
+    margin: auto;
+    max-width: 600px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.inputs input {
+    padding: 6px;
+    background: transparent;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    color:#ccc;
+}
+
+h2 {
+    text-align: center;
+    padding: 8px;
+}
+
+input[type="submit"]{
+    color: #ddd;
+    max-width: 100px;
+    margin: auto;
+
+}
+
+select{
+    padding: 6px;
+    background: transparent;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    color:#777;
+}
+
+label{
+    color: #ccc;
+    line-height: 2.5;
+}
+
+fieldset{
+    border: 1px solid #888;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+legend{
+    color: #ccc;
+    padding: 0px 6px;
+}
+
+.inputs input[type="submit"] {
+    background: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.inputs input[type="submit"]:hover {
+    background: #666;
+}
